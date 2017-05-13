@@ -1,0 +1,23 @@
+{
+  "name": "jsonize-javascript-client",
+  "version": "0.0.1",
+  "description": "This is the Jsonize Javascript Client.",
+  "main": "dist/Jsonize.min.js",
+  "scripts": {
+    "prepublish": "webpack --debug; webpack -p"
+  },
+  "keywords": [
+    "example",
+    "typescript"
+  ],
+  "author": "Foodji",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-loader": "^0.8.1",
+    "tslint": "^3.5.0",
+    "tslint-loader": "^2.1.0",
+    "typescript": "^1.8.2",
+    "webpack": "^1.12.14",
+    "yargs": "^4.2.0"
+  }
+}
